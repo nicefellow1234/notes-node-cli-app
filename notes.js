@@ -1,4 +1,4 @@
-console.log('Starting notes.js');
+//console.log('Starting notes.js');
 
 const fs = require('fs');
 
@@ -30,7 +30,7 @@ var addNote = (title, body) => {
 }
 
 var getAll = () => {
-	console.log(fetchNotes());
+	return fetchNotes();
 }
 
 var getNote = (title) => {
