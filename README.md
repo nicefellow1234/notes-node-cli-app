@@ -24,6 +24,8 @@ Or with each command as :
     node app.js read --help
 
     node app.js list --help
+    
+**NOTE:** Use either `--title` or `-t` & `--body` or `-b` as arguments
 
 Add Note : 
 
